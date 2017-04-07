@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2017
 
 # icon between year and author @Footer
 authoricon: heart
@@ -38,10 +38,10 @@ seo: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
   archives: /archives
   tags: /tags
+  categories: /categories
+  about: /about
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -154,7 +154,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /uploads/avatar.jpeg
 
 
 # Table Of Contents in the Sidebar
@@ -199,11 +199,13 @@ sidebar:
 
 
 # Blog rolls
-#links_title: Links
-#links_layout: block
+links_title: Links
+links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  github: https://github.com/asiareal
+  知乎: https://www.zhihu.com/people/asia-wang-91/activities
+  微博: http://weibo.com/u/1868786687/home
 
 
 # ---------------------------------------------------------------
@@ -325,7 +327,7 @@ changyan:
 ##  type: button
 
 # Share
-#jiathis:
+jiathis: true
 # Warning: JiaThis does not support https.
 #add_this_id:
 
@@ -529,10 +531,15 @@ vendors:
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
-  
+
   #three
   three:
   three_waves:
+
+#打赏
+reward_comment: 康忙！扫一扫有惊喜，你的赞助是我继续写作动力
+wechatpay: /uploads/wechat.png
+alipay: /uploads/alipay.jpeg
 
 
 
