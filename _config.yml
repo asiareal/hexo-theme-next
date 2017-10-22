@@ -221,7 +221,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -295,15 +295,15 @@ mathjax:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: aw-blog
   count: true
 
 # Hypercomments
 #hypercomments_id:
 
 # Gentie productKey
-gentie_productKey: 2801437171d74d9d998e95991e7c7d0e
+gentie_productKey:
 
 # changyan
 changyan:
